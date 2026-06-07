@@ -1,0 +1,16 @@
+#include <iostream>
+#include "logic.h"
+
+using namespace std;
+
+int main() {
+	int x = 10, y = 7;
+
+	cout << "Befor: x = " << x << ", y = " << y << ".\n";
+
+	swapping(x, y);
+
+	cout << "after: x = " << x << ", y = " << y << ".\n";
+
+	return 0;
+}

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{118e171d-9636-4d05-a74a-8b82bf72961a}</ProjectGuid>
-    <RootNamespace>test01</RootNamespace>
+    <ProjectGuid>{90afca07-70e4-429c-93ff-e30ca6d284a9}</ProjectGuid>
+    <RootNamespace>task01</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,14 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test01.cpp" />
-    <ClCompile Include="test02.cpp" />
-    <ClCompile Include="test03.cpp" />
-    <ClCompile Include="test04.cpp" />
-    <ClCompile Include="test05.cpp" />
-    <ClCompile Include="test06.cpp" />
-    <ClCompile Include="test07.cpp" />
-    <ClCompile Include="test08.cpp" />
+    <ClCompile Include="logic.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -3,13 +3,15 @@
 //
 ////pointer - ptr
 //int main() {
-//	int size;
-//	int* ptr_array = NULL;
+//	int number = 100;
+//	int* ptr = &number;
+//
+//	*ptr *= 2;
 //
 //	//cout << "Input size of array: ";
 //	//cin >> size
 //
-//	cout << ptr_array << endl;;
+//	cout << "number = " << number << endl;;
 //
 //	return 0;
 //}
